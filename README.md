@@ -10,7 +10,7 @@ When you run bash.sh, start and attach your docker by the following commands
             docker start <docker_name> 
             docker attach <docker_name>
             
-or run start.sh script
+or run starting_docker.sh script
 
 After starting and attaching the docker, install vlc software along with its dependencies.
 
