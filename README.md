@@ -7,8 +7,8 @@ Firstly, run the script base.sh on base machine/VM by providing the name of dock
 -e DISPLAY=$DISPLAY signifies the environment variable and it is necessary to attach it --device /dev/snd, --device /dev/video0 denotes all the devices you want to attach with the docker.
 
 When you run bash.sh, start and attach your docker by the following commands 
-            docker start <docker_name> 
-            docker attach <docker_name>
+            --> docker start <docker_name> 
+            --> docker attach <docker_name>
             
 or run starting_docker.sh script
 
@@ -17,4 +17,4 @@ After starting and attaching the docker, install vlc software along with its dep
 inside_docker.sh script is run inside the docker to run VLC media player inside docker.
 
 Try playing a song using the following command
-     vlc <song_name>
+            --> vlc <song_name>
